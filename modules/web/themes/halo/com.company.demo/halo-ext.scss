@@ -1,4 +1,5 @@
-/* Define your theme modifications inside next mixin */
-@mixin com_company_demo-halo-ext {
+@import "components/sidemenu/sidemenu";
 
+@mixin com_company_demo-halo-ext {
+  @include demo-cuba-sidemenu;
 }
