@@ -1,0 +1,5 @@
+@import "components/sidemenu/sidemenu";
+
+@mixin com_company_demo-hover-ext {
+  @include demo-cuba-sidemenu;
+}
